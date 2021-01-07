@@ -227,7 +227,7 @@ img {
 .content p {
   margin: 30px 0 25px 0;
 }
-.lock {
+/* .lock {
   width: 26px;
   height: 16px;
   background: #faeaff;
@@ -246,8 +246,9 @@ img {
   position: absolute;
   bottom: 16px;
   right: 5px;
-}
-a .fa {
+} */
+a .fa,
+div .fa-lock {
   font-size: 36px;
   transition: 500ms;
 }
@@ -259,6 +260,7 @@ a .fa-facebook-square,
 a .fa-instagram,
 a .fa-twitter-square,
 a .fa-linkedin-square,
-a .fa-github-square {
+a .fa-github-square,
+div .fa-lock {
   color: #faeaff;
 }
